@@ -18,9 +18,9 @@ describe('snake case', function () {
     assert.equal(snakeCase('path/case'), 'path_case')
   })
 
-  it('should snake case snake cased strings', function () {
+  it('should snake case pascal cased strings', function () {
     assert.equal(snakeCase('TestString'), 'test_string')
-    assert.equal(snakeCase('TestString1_2_3'), 'test_string_1_2_3')
+    assert.equal(snakeCase('TestString1_2_3'), 'test_string1_2_3')
   })
 
   it('should support non-latin characters', function () {
