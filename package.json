@@ -1,6 +1,6 @@
 {
   "name": "snake-case-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Snake case a string",
   "main": "snake-case.js",
   "typings": "snake-case.d.ts",
