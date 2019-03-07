@@ -21,7 +21,7 @@ npm install snake-case-typescript --save
 Javascript:
 
 ```javascript
-var snakeCase = require("snake-case");
+var snakeCase = require("snake-case-typescript");
 
 snakeCase("string"); //=> "string"
 snakeCase("camelCase"); //=> "camel_case"
@@ -33,7 +33,7 @@ snakeCase("MY STRING", "tr"); //=> "my_strıng"
 Typescript:
 
 ```typescript
-import snakeCase from "snake-case";
+import snakeCase from "snake-case-typescript";
 
 snakeCase("string"); //=> "string"
 snakeCase("camelCase"); //=> "camel_case"
