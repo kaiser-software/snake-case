@@ -18,19 +18,29 @@ npm install snake-case --save
 
 ## Usage
 
+Javascript:
+
 ```javascript
-var snakeCase = require('snake-case')
+var snakeCase = require("snake-case");
 
-snakeCase('string')        //=> "string"
-snakeCase('camelCase')     //=> "camel_case"
-snakeCase('sentence case') //=> "sentence_case"
+snakeCase("string"); //=> "string"
+snakeCase("camelCase"); //=> "camel_case"
+snakeCase("sentence case"); //=> "sentence_case"
 
-snakeCase('MY STRING', 'tr') //=> "my_strıng"
+snakeCase("MY STRING", "tr"); //=> "my_strıng"
 ```
 
-## Typings
+Typescript:
 
-Includes a [TypeScript definition](snake-case.d.ts).
+```typescript
+import snakeCase from "snake-case";
+
+snakeCase("string"); //=> "string"
+snakeCase("camelCase"); //=> "camel_case"
+snakeCase("sentence case"); //=> "sentence_case"
+
+snakeCase("MY STRING", "tr"); //=> "my_strıng"
+```
 
 ## License
 
