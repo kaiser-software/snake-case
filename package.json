@@ -1,6 +1,6 @@
 {
-  "name": "snake-case",
-  "version": "2.1.0",
+  "name": "snake-case-typescript",
+  "version": "0.0.1",
   "description": "Snake case a string",
   "main": "snake-case.js",
   "typings": "snake-case.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/blakeembrey/snake-case.git"
+    "url": "git://github.com/kaiser-software/snake-case.git"
   },
   "keywords": [
     "snake",

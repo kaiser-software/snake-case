@@ -13,7 +13,7 @@ Supports Unicode (non-ASCII characters) and non-string entities, such as objects
 ## Installation
 
 ```
-npm install snake-case --save
+npm install snake-case-typescript --save
 ```
 
 ## Usage
